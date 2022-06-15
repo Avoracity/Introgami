@@ -1,6 +1,7 @@
 <template>
   <div>
-    <h1> testing </h1>
+    <Hero /> <!-- display hero component on index page -->
+
   </div>
 </template>
 

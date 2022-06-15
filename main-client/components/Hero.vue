@@ -1,5 +1,5 @@
 <template>
-    <header class="header">
+    <div class="header">
         <h1 class="title">Hello?</h1>
         <ul>
             <li>
@@ -12,7 +12,7 @@
                 <nuxt-link to='/about'> About</nuxt-link>
             </li>
         </ul>
-    </header>
+    </div>
 </template>
 
 <script>
@@ -22,7 +22,5 @@ export default {
 
 </script>
 
-<style>
-
-</style>
+<style scoped src="@/assets/styles/hero.css"> </style>
 
