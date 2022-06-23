@@ -2,7 +2,7 @@
     <div class="Hero Container">
         <h1 class="header">Hello?</h1>
         <button class="button btn"> First button </button>
-
+        <div class = "chat-notification"> miao </div>
         <ul>
             <li>
                 <nuxt-link to="/">Home</nuxt-link>
