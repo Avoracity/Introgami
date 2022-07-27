@@ -32,9 +32,8 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
-    // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss',
-    // https://tailwindcss.com/docs/guides/nuxtjs
+    // https://go.nuxtjs.dev/
+
     '@nuxt/postcss8',
   ],
 
@@ -46,7 +45,7 @@ export default {
   build: {
     postcss: {
       plugins: {
-        tailwindcss: {},
+        
         autoprefixer: {},
       },
     },
