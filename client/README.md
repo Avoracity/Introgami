@@ -1,4 +1,4 @@
-# main-client
+# Introgami
 
 ## Build Setup
 
