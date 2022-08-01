@@ -2,6 +2,8 @@
   <div>
   <Navbar />
   <Hero />
+  <Trending />
+  <Create />
   <Footer />
   
   </div>
