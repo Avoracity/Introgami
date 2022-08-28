@@ -1,6 +1,9 @@
 <template>
     <div class="Hero Container">
-        <div class = "hero hero-crane"></div>
+        <div class = "hero hero-crane">
+            <div class="hero-title"> introgami </div>
+            <div class="hero-description"> lorem ipsum lore ipsu</div>
+        </div>
     </div>
     
 </template>

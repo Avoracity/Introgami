@@ -17,6 +17,17 @@
 .hero-crane {
     background-image: url("assets/images/introgami-crane.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-position: left;
+}
+
+.hero-title {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+.hero-description {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
 }
