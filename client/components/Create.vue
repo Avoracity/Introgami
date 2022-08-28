@@ -1,6 +1,14 @@
 <template>
     <div class="Create Container">
-        <div class = "create_your_own"></div>
+        <div class = "create_your_own">
+         
+            <Card />
+            <Card />
+      
+   
+
+        </div>
+        
     </div>
     
 </template>

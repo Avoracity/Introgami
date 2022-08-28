@@ -1,6 +1,14 @@
 <template>
     <div class="Trending Container">
-        <div class = "trending"></div>
+        <div class = "trending">
+            <div class = "trending_wrapper">
+                        <!--
+                 <Card />
+                 <Card />
+             --> 
+         
+             </div>
+        </div>
     </div>
     
 </template>
