@@ -1,6 +1,6 @@
 <template>
     <div class="Hero Container">
-        <div class = "hero"></div>
+        <div class = "hero hero-crane"></div>
     </div>
     
 </template>

@@ -13,3 +13,10 @@
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25); 
     
 }
+
+.hero-crane {
+    background-image: url("assets/images/introgami-crane.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
