@@ -20,5 +20,8 @@
         "commandCenter.border": "#15202b99"
     },
     "peacock.color": "#42b883",
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "main"
+    ]
 }
