@@ -4,6 +4,7 @@
   <Hero />
   <Trending />
   <Create />
+  <QnA />
   <Footer />
   
   </div>
