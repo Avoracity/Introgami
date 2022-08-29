@@ -12,3 +12,30 @@
     z-index: 1;
     opacity: 0.9;
 }
+
+.btn_container {
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+    
+}
+
+.about_btn {
+    padding: 10px 50px;
+}
+
+.explore_btn {
+    padding: 10px 50px;
+
+}
+
+.login_btn {
+    padding: 10px 50px;
+
+}
+
+.create_btn {
+    padding: 10px 50px;
+
+}
+
