@@ -23,11 +23,18 @@
 .hero-title {
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
+    font-size: 40px;
+    margin: 0px 0px 50px 500px;  /* top bot left right */
+    color: #fff;
+
 }
 
 .hero-description {
     font-family: 'Quicksand', sans-serif;
     font-weight: normal;
+    color: #fff;
+    opacity: 0.8;
     font-size: 14px;
     line-height: 20px;
+    margin: 0px 0px 50px 500px;  /* top bot left right */
 }
