@@ -23,20 +23,25 @@
 
 .about_btn {
     padding: 10px 50px;
+    cursor: pointer;
 }
 
 .explore_btn {
     padding: 10px 50px;
+    cursor: pointer;
 
 }
 
 .login_btn {
     padding: 10px 50px;
+    cursor: pointer;
 
 }
 
 .create_btn {
     padding: 10px 50px;
+    cursor: pointer;
+
     /* background-image: url("assets/images/hero-bg.png"); */
 
 }
