@@ -11,9 +11,17 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
+    // Global favicon and font 
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: "stylesheet",
+        href: "https://use.typekit.net/rvc4bpb.css",
+      },
+      
     ]
+
+
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
