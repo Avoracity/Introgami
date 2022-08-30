@@ -1,3 +1,11 @@
+
+
+.hero-container {
+    background-color:#ea5f9e;
+    background-image: url("assets/images/hero-bg.png");
+
+}
+
 .hero {
 
     height:1024px;
@@ -8,7 +16,6 @@
     align-items:center;
     justify-content:center;
     position:relative;
-    background-color:#ea5f9e;
 
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25); 
     
