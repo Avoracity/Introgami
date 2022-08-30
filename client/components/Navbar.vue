@@ -2,10 +2,11 @@
     <div class="Navbar Container">
         <div class = "navbar">
             <div class = "btn_container">
-                <div class= "about_btn"  type="button" onclick=" window.location.href='index.vue' " > About</div>
-                <div class="explore_btn"> Explore </div>
-                <div class ="login_btn"> Login</div>
-                <div class="create_btn"> Create</div>
+                <NuxtLink class= "about_btn"  to="/about">About</NuxtLink>
+                <div class="explore_btn"  type="button" onclick=" window.location.href='explore' " > Explore </div>
+                <div class ="login_btn" type="button" onclick=" window.location.href='login' " > Login</div>
+                <div class="create_btn" type="button" onclick=" window.location.href='create' " > Create</div>
+                <div class="acc_pfp_btn" type="button" onclick=" window.location.href='account' "></div>
             </div>
         </div>
     </div>
