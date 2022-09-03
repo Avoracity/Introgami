@@ -1,5 +1,5 @@
 <template>
-    <div class="QnA Container">
+    <div class="qna-container">
         <div class = "qna_bg"></div>
     </div>
     

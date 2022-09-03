@@ -1,5 +1,5 @@
 <template>
-    <div class="Trending Container">
+    <div class="trending-container">
         <div class = "trending">
             <div class = "trending_wrapper">
                         <!--

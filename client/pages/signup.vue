@@ -1,6 +1,9 @@
 <template>
     <div>
-        <login />
+    <Navbar />
+    <Create />
+    <Footer />
+    
     </div>
   
   </template>

@@ -1,5 +1,5 @@
 <template>
-    <div class="Navbar Container">
+    <div class="navbar-container">
         <div class = "navbar">
             <div class = "btn_container">
                 <NuxtLink class= "about_btn"  to="/about">About</NuxtLink>
