@@ -2,8 +2,6 @@
     <div class="create-container">
         <div class = "create_your_own">
          
-            <Card />
-            <Card />
       
    
 

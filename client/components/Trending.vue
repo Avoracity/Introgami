@@ -2,10 +2,13 @@
     <div class="trending-container">
         <div class = "trending">
             <div class = "trending_wrapper">
-                        <!--
+        
                  <Card />
                  <Card />
-             --> 
+                 <Card />
+                 <Card />
+                 <Card />
+     
          
              </div>
         </div>
