@@ -1,3 +1,4 @@
+
 <template>
     
     <div class="navbar-container">
@@ -9,12 +10,12 @@
                 <div class="create_btn" type="button" onclick=" window.location.href='create' " > Create</div>
                 <div class="acc_pfp_btn" type="button" onclick=" window.location.href='account' "></div>
                
-                <div class="profile_container">
-                    <div class="profile">
-                        <img src="user.png" alt="">
+                <div class="action" >
+                    <div class="profile" @click="menuToggle">
+                        <img src="@/assets/images/plaid-pattern-sundae.png" alt="">
                     </div>
 
-                    <div class="profile_menu">
+                    <div class="menu">
                         <h3>
                             User Account
                             <div>
@@ -24,12 +25,17 @@
                         <ul>
                             <li>
                                 <span class="material-icons">manage_accounts</span>
+                                <a href="#">My Profile</a>
                             </li>
                             <li>
                                 <span class="material-icons">folder_special</span>
+                                <a href="#">My Favorites</a>
+
                             </li>
                             <li>
                                 <span class="material-icons">logout</span>
+                                <a href="#">Log Out</a>
+
                             </li>
 
                         </ul>
@@ -42,10 +48,16 @@
     
 </template>
 
-<script>
-export default {
-    name: 'AppHeader'
-};
+
+
+<script setup>
+    function menuToggle(){
+        if (process.client) {
+            const toggleMenu = document.querySelector('.menu');
+            toggleMenu.classList.toggle('active');
+        }
+
+    }
 
 </script>
 
