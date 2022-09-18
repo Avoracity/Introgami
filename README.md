@@ -37,7 +37,22 @@ Answer 1
 
 Answer 2
 
+## TODO 
 
+- logged-in | logged-out middleware
+- create containers and functionality
+- trending containers
+- sign-in | log-in
+- specified_user-page
+- welcome setup 3-pages
+- specified_user content page 
+- comment section
+- following page
+- explore page
+- saved_favorites page
+- settings page
+- home page
+- landing page (Done)
 ## Tech Stack
 
 **Client:** Nuxt, Vue, TailwindCSS
