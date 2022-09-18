@@ -7,8 +7,11 @@
                 <NuxtLink class= "about_btn"  to="/about">About</NuxtLink>
                 <div class="explore_btn"  type="button" onclick=" window.location.href='explore' " > Explore </div>
                 <div class ="login_btn" type="button" onclick=" window.location.href='login' " > Login</div>
-                <div class="create_btn" type="button" onclick=" window.location.href='create' " > Create</div>
-                <div class="acc_pfp_btn" type="button" onclick=" window.location.href='account' "></div>
+                
+                <div class="create_btn frame-btn__solid frame-btn__text" type="button" onclick=" window.location.href='create' " > Create</div>
+        
+
+                <div class="acc_pfp_btn" type="button" onclick=" window.location.href='account' "> </div>
                
                 <div class="action" >
                     <div class="profile" @click="menuToggle">
@@ -24,16 +27,16 @@
                         </h3>
                         <ul>
                             <li>
-                                <span class="material-icons">manage_accounts</span>
+                                <span class="material-icons icons-size">manage_accounts</span>
                                 <a href="#">My Profile</a>
                             </li>
                             <li>
-                                <span class="material-icons">folder_special</span>
+                                <span class="material-icons icons-size">folder_special</span>
                                 <a href="#">My Favorites</a>
 
                             </li>
                             <li>
-                                <span class="material-icons">logout</span>
+                                <span class="material-icons icons-size">logout</span>
                                 <a href="#">Log Out</a>
 
                             </li>
@@ -50,12 +53,13 @@
 
 
 
-<script setup>
-    function menuToggle(){
-        if (process.client) {
-            const toggleMenu = document.querySelector('.menu');
+<script setup lang="ts">
+    
+    function menuToggle(): void {
+        
+            const toggleMenu: any  = document.querySelector('.menu');
             toggleMenu.classList.toggle('active');
-        }
+        
 
     }
 

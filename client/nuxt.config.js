@@ -14,8 +14,10 @@ export default {
     // Global favicon and font 
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons' },
-      { rel: "stylesheet", href: "https://use.typekit.net/rvc4bpb.css" },
+      {
+        rel: "stylesheet",
+        href: "https://use.typekit.net/rvc4bpb.css",
+      },
       
     ]
 
@@ -47,6 +49,5 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    vendor: ['@/scripts/main.js']
   }
 }
