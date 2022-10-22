@@ -15,5 +15,5 @@
     grid-template-columns:
         repeat(auto-fit,minmax(15rem,1fr))
     ;
-    grid-gap: 6.0rem;
+    grid-gap: 6rem;
 }
