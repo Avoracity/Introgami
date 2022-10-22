@@ -11,6 +11,11 @@
     - navbar
 \* ---------------------------------------------------------------- */
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 .navbar {
     background-color:#ed8fb8;
     font-family: nunito;
