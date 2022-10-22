@@ -1,22 +1,22 @@
 
 <template>
-  <div class="card-container">
-    <div class="max-w-sm rounded overflow-hidden shadow-lg">
-        <img class="w-full" src="" alt="Sunset in the mountains">
-        <div class="px-6 py-4">
-          <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-          <p class="text-gray-700 text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-          </p>
-        </div>
-        <div class="px-6 pt-4 pb-2">
-          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-        </div>
+<div class="card-container">
+  <div class="card w-96 bg-base-100 shadow-xl">
+  <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+  <div class="card-body">
+    <h2 class="card-title">
+      Shoes!
+      <div class="badge badge-secondary">NEW</div>
+    </h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div class="card-actions justify-end">
+      <div class="badge badge-outline">Fashion</div> 
+      <div class="badge badge-outline">Products</div>
     </div>
   </div>
-    
+</div>
+</div>
+
 </template>
 
 <script>

@@ -20,7 +20,8 @@
                  <Card />
      
          
-             </div>
+            </div>
+
         </div>
     </div>
     

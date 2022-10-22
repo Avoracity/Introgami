@@ -10,9 +10,10 @@
 }
 
 .trending_wrapper {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap | wrap | wrap-reverse;
-    justify-content:center;
-    gap: 20px;
+    list-style: none;
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit,minmax(15rem,1fr))
+    ;
+    grid-gap: 6.0rem;
 }
