@@ -12,6 +12,7 @@
     <div class="card-actions justify-end">
       <div class="badge badge-outline">Fashion</div> 
       <div class="badge badge-outline">Products</div>
+      
     </div>
   </div>
 </div>
