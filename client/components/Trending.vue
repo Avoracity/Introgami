@@ -3,24 +3,24 @@
         <div class = "trending">
 
             <div class="trending-title">
-                <div class="w-full min-h-24 rounded overflow-hidden shadow-lg">
-                    <div class="text-center font-bold text-xl mb-2">The Coldest Sunset</div>
-                </div>       
+                    <div class="text-center font-bold text-2xl mb-2">Top Six Designs </div>
             </div>
 
      
     
-
-            <div class = "trending_wrapper">
+            <div class="cardboard_container">
+                <div class = "trending_wrapper">
         
-                 <Card />
-                 <Card />
-                 <Card />
-                 <Card />
-                 <Card />
-     
-         
+                    <Card />
+                    <Card />
+                    <Card />
+                    
+                    <Card />
+                    <Card />
+                    <Card />     
+                </div>
             </div>
+
 
         </div>
     </div>
