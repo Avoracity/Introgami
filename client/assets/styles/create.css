@@ -5,14 +5,18 @@
 
 .create_your_own {
     background-color: #fff4fc;
-
-
     color: #333;
-    padding: 400px;
 }
 
 .create_wrapper {
     background-color: #fff;
     color: #333;
-    padding: 200px;
 }
+
+.cardboard_container {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; 
+    padding: 500px;
+}
+

@@ -1,6 +1,8 @@
 <template>
     <div class="qna-container">
-        <div class = "qna_bg"></div>
+        <div class = "qna_bg">
+            <div class="cardboard_container"></div>
+        </div>
     </div>
     
 </template>
