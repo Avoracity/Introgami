@@ -1,7 +1,15 @@
 <template>
     <div class="create-container">
         <div class = "create_your_own">
-            <div class="cardboard_container"></div>
+            <div class="cardboard_container">
+                
+
+
+
+
+
+
+            </div>
       
    
 

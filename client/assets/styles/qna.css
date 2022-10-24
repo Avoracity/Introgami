@@ -4,7 +4,7 @@
 
 
 .qna_bg {
-    background-color: #fff4fc;   
+    background-color: #FFEAF7;   
     color: #333;
 
 }
@@ -17,3 +17,87 @@
     padding: 200px;
 }
 
+
+
+.collapse-bar {
+    border-radius: 14px;
+    margin: 16px;
+    box-shadow: rgb(45 45 45 / 5%) 0px 2px 2px, rgb(49 49 49 / 5%) 0px 4px 4px, rgb(42 42 42 / 5%) 0px 8px 8px, rgb(32 32 32 / 5%) 0px 16px 16px;
+    transition: all ease-in-out 100ms;
+
+}
+
+input, a {
+    font-size: 16px;
+    font-family: 'Nunito','Open Sans',"Roboto","Open Sans", sans-serif;
+    color: #000;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.ds-faq-toggle-wrapper {
+    display: block;
+    font-weight: bold;
+    font-family: 'Nunito',sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding: 16px;
+    color: #000;
+    background: #fff;
+    cursor: pointer;
+    margin-bottom: 0;
+    border-radius: 14px;
+    transition: all 0.25s ease-out;
+}
+
+.ds-faq-toggle-wrapper::before {
+    content: '\f067';
+    font-family: 'Font Awesome 5 Pro';
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 16px;
+    transform: translateY(-2px);
+    transition: transform .2s ease-out;
+    color: #ff5f5f;
+}
+
+input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+}
+
+.toggle:checked + .ds-faq-toggle-wrapper {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+label {
+    font-weight: bold !important;
+}
+
+
+.collapse-content .content-inner {
+    background: #f7f7f7;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    padding: 16px;
+}
+
+.content-inner {
+
+}
+
+.collapse-content {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height .25s ease-in-out;
+}
+
+input[type='checkbox'] {
+    display: none;
+}
