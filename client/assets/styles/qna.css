@@ -5,7 +5,7 @@
 
 
 .qna_bg {
-    background-color: #FFEAF7;   
+    background-color: var(--tertiary-bg-color);  
     color: #333;
 
 }
