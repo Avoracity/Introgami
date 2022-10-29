@@ -26,5 +26,10 @@ export default {
 
 </script>
 
-<style scoped src="@/assets/styles/create.css"> </style>
+
+<style lang="css" scoped> 
+@import "../assets/styles/create.css";
+@import "../assets/styles/global.css";
+
+</style>
 

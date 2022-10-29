@@ -15,5 +15,9 @@ export default {
 
 </script>
 
-<style scoped src="@/assets/styles/hero.css"> </style>
+<style lang="css" scoped> 
+@import "../assets/styles/hero.css";
+@import "../assets/styles/global.css";
+
+</style>
 

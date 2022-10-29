@@ -12,5 +12,9 @@ export default {
 
 </script>
 
-<style scoped src="@/assets/styles/signup.css"> </style>
+<style lang="css" scoped> 
+@import "../assets/styles/signup.css";
+@import "../assets/styles/global.css";
+
+</style>
 

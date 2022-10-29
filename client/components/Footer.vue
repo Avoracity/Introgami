@@ -12,5 +12,10 @@ export default {
 
 </script>
 
-<style scoped src="@/assets/styles/footer.css"> </style>
+
+<style lang="css" scoped> 
+@import "../assets/styles/footer.css";
+@import "../assets/styles/global.css";
+
+</style>
 
