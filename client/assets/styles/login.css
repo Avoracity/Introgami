@@ -49,7 +49,7 @@ a:hover {
 .login-img-wrapper {
     
     height: 200px;
-    background-image: url("assets/images/plaid-pattern.png");
+    background-image: url("../images/plaid-pattern.png");
     background-size: cover;
     
 }
