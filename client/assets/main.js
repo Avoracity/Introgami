@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from '../components/QnA.vue'
-import './scripts/accordian.js'
+import './scripts/accordion.js'
 Vue.config.productionTip = false;
 
 new Vue({

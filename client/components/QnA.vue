@@ -1,5 +1,7 @@
 <template>
     <div class="qna-container">
+
+
         <div class = "qna_bg">
             <div class="cardboard_container">
                 
@@ -34,5 +36,11 @@ export default {
 }
 </script>
 
-<style scoped src="@/assets/styles/qna.css"> </style>
+<style lang="css" scoped>
+@import "@/assets/styles/global.css";
+@import "@/assets/styles/qna.css";
+
+</style>
+
+
 
