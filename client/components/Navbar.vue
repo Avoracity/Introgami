@@ -1,6 +1,7 @@
 
 <template>
     
+ <div class="navbar">
     <div class="navbar-container">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
@@ -51,6 +52,7 @@
         </div>
     </div>
     
+ </div>
 </template>
 
 

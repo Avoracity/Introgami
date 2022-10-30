@@ -1,21 +1,17 @@
 <template>
+   <div class="create">
     <div class="create-container">
         <div class = "create_your_own">
-            <div class="cardboard_container">
+            <div class="layout-section">
                 
 
-
-
-
-
-
             </div>
-      
-   
+
 
         </div>
         
     </div>
+   </div>
     
 </template>
 

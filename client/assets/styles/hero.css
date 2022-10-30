@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-.hero-container {
+.hero {
     display: grid;
     grid-template-columns: 1fr;
 }
@@ -16,20 +16,7 @@
     height: 1200px;
 }
 
-.hero {
-    opacity : 1.0;
-    height:250px;
-    padding:0px;
-    display:flex;
-    flex-direction:column;
-    flex-wrap:nowrap;
-    align-items:center;
-    justify-content:center;
-    position:relative;
-
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25); 
-    
-}
+.hero-container {}
 
 .intro-crane {
 

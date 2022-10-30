@@ -8,7 +8,8 @@
 
      
     
-            <div class="cardboard_container">
+            <div class="layout-section-a
+            ">
                 <div class = "trending_wrapper">
         
                     <Card />

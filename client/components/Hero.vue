@@ -1,10 +1,12 @@
 <template>
-    <div class="hero-container">
-        
-        <img src="../assets/images/opac-pattern.png" class="plaid-bg" />
-        <img src="../assets/images/introgami-crane.png" class="intro-crane" />
-        <div class="plaid-bg hero-title"> introgami </div>
-        <div class="plaid-bg hero-description"> Letters and Origamis for Introverts </div>
+    <div class="hero">
+        <div class="hero-container">
+            <img src="../assets/images/opac-pattern.png" class="plaid-bg" />
+            <img src="../assets/images/introgami-crane.png" class="intro-crane" />
+            <div class="plaid-bg hero-title"> introgami </div>
+            <div class="plaid-bg hero-description"> Letters and Origamis for Introverts </div>
+
+        </div> 
 
     </div>
     
