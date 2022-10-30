@@ -2,6 +2,8 @@
 <template>
     
     <div class="navbar-container">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
         <div class = "navbar">
             <div class = "btn_container">
                 <NuxtLink class= "about_btn"  to="/about">About</NuxtLink>
