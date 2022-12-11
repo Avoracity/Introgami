@@ -1,6 +1,6 @@
 <template>
-    <div>
-      
+    <div class="page-property">
+
     <Navbar />
     <Hero />
     <Trending />
@@ -12,11 +12,9 @@
   
   </template>
   
-  <script lang="ts">
-  import Vue from 'vue'
-  
-  export default Vue.extend({
-    name: 'IndexPage'
-  })
-  </script>
+<style lang="css" scoped> 
+  @import "../assets/styles/global.css";
+
+</style>
+
   

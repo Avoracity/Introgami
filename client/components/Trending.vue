@@ -1,6 +1,6 @@
 <template>
-    <div class="trending-container">
-        <div class = "trending">
+    <div class="trending">
+        <div class = "trending-container">
 
             <div class="trending-title">
                     <div class="text-center font-bold text-2xl mb-2">Top Six Designs </div>

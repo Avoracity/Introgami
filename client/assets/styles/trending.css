@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.trending {
+.trending {}
+
+.trending-container {
     background-color: #fff4fc;
 
     color: #333;

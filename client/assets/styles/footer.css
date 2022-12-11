@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+.footer {}
 
 .footer-container {
     background-color: #ef99bf;

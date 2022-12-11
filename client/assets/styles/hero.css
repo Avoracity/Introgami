@@ -8,6 +8,8 @@
     grid-template-columns: 1fr;
 }
 
+.hero-container {}
+
 .plaid-bg {
     background-size: contain;
     background-repeat: no-repeat;
@@ -16,7 +18,6 @@
     height: 1200px;
 }
 
-.hero-container {}
 
 .intro-crane {
 
