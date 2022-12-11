@@ -18,7 +18,17 @@
     height: 1200px;
 }
 
+.hero-title {
+    position: absolute;
+    bottom: 350px;
+    left: 700px;
+}
 
+.hero-description {
+    position: absolute;
+    bottom: 300px;
+    left: 700px;
+}
 .intro-crane {
 
     position: absolute;
