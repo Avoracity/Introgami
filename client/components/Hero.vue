@@ -3,8 +3,8 @@
         <div class="hero-container">
             <img src="../assets/images/opac-pattern.png" class="plaid-bg" />
             <img src="../assets/images/introgami-crane.png" class="intro-crane" />
-            <div class="hero-title"> introgami </div>
-            <div class="hero-description"> Letters and Origamis for Introverts </div>
+            <div class="hero-title"> <h1>Introgami</h1> </div>
+            <div class="hero-description"> <h2>Letters and Origamis for Introverts </h2> </div>
 
         </div> 
 

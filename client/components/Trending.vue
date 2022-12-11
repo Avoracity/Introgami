@@ -8,17 +8,11 @@
 
      
     
-            <div class="layout-section-a
-            ">
+            <div class="layout-section-a">
                 <div class = "trending_wrapper">
         
                     <Card />
-                    <Card />
-                    <Card />
-                    
-                    <Card />
-                    <Card />
-                    <Card />     
+  
                 </div>
             </div>
 
