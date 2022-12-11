@@ -23,31 +23,3 @@
     position: absolute;
     top: 250px;
 }
-
-.hero-title {
-    position: absolute;
-    top: 400px;
-
-    opacity : 1.0;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: bold;
-    font-size: 40px;
-    padding: 25px;
-    margin: 0px 0px 50px 500px;  /* top bot left right */
-    color: #000;
-
-}
-
-.hero-description {
-    position: absolute;
-    top: 450px;
-
-    opacity : 1.0;
-    padding: 35px 25px 25px 25px;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: normal;
-    color: #000;
-    font-size: 14px;
-    line-height: 20px;
-    margin: 0px 0px 50px 500px;  /* top bot left right */
-}
