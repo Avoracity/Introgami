@@ -1,8 +1,7 @@
 <template>
     <div class="hero">
         <div class="hero-container">
-            <img src="../assets/images/opac-pattern.png" class="plaid-bg" />
-            <img src="../assets/images/introgami-crane.png" class="intro-crane" />
+            <img src="../assets/images/introgamibg.png" class="intro-bg" />
             <div class="hero-title"> <h1>Introgami</h1> </div>
             <div class="hero-description"> <h2>Letters and Origamis for Introverts </h2> </div>
 
