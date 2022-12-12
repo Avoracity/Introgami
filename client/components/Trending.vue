@@ -6,15 +6,13 @@
                     <div class="text-center font-bold text-2xl mb-2">Top Six Designs </div>
             </div>
 
-     
-    
-            <div class="layout-section-a">
                 <div class = "trending_wrapper">
         
-                    <Card />
+                    <Card/>
+                    <Card/>
   
                 </div>
-            </div>
+       
 
 
         </div>
