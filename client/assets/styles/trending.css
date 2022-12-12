@@ -16,10 +16,6 @@
 }
 
 .trending_wrapper {
-    display: grid;
-    grid-auto-flow: row;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns per 1 item */
-    grid-template-rows: repeat(2, 1fr);   /* 2 rows for 1 item per section */
-    
+
 }
 

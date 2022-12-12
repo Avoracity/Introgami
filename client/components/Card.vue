@@ -1,7 +1,7 @@
 
 <template>
 <div>
-    <div class="mt-8 grid lg:grid-cols-3 gap-10">
+    <div class="mt-8 grid lg:grid-cols-3 gap-4 pr-8 pb-8">
           <!-- cards go here -->
           <div class="card hover:shadow-lg"> 
             <img src="img/stew.jpg" alt="stew" class="h-32 sm:h-48 w-full object-cover">
