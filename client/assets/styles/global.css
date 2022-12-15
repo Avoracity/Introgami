@@ -1,4 +1,10 @@
+
+
 /* global variables */
+
+body {
+    overflow-x : hidden;
+}
 
 :root {
     --primary-bg-color: #E55D9B; /* dark pink */ 
@@ -8,13 +14,12 @@
     --classic-blk-bg-color: #4F4350; /* black */
 }
 
+
 .layout-section {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 5px; 
-    padding: 500px;
+    padding: 50px;
 }
 
-body {
-    overflow-x : hidden;
-}
+

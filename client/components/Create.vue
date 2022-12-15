@@ -3,8 +3,12 @@
     <div class="create-container">
         <div class = "create_your_own">
             <div class="layout-section">
-                
+                <!-- inside white component -->
+                <div class="start-creating-container">
+                    <button class="btn btn-pink"> Button </button>
 
+    
+                </div>
             </div>
 
 
