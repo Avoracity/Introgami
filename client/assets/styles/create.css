@@ -12,6 +12,7 @@
   }
 
 .start-creating-container {
+    width: 1000px;
     padding : 250px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
@@ -19,7 +20,7 @@
     background-image: url("../images/introgami-desktop-image.png");
     background-repeat: no-repeat;
     object-fit : contain;
-    background-position: -20px 0;
+    margin: 0 auto;
   }
 
 
