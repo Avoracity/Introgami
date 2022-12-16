@@ -12,11 +12,15 @@
   }
 
 .start-creating-container {
-    padding: 300px;
+    padding : 250px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
     transition: 0.3s;
-}
+    background-image: url("../images/introgami-desktop-image.png");
+    background-repeat: no-repeat;
+    object-fit : contain;
+    background-position: -20px 0;
+  }
 
 
 
