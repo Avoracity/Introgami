@@ -17,7 +17,7 @@
 
 
 .navbar {
-    background-color:#ed8fb8;
+    background-color: var(--quad-bg-color);
     font-family: nunito;
     font-weight: 700;
     box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.25); 
@@ -43,7 +43,7 @@
 .btn_container {
     display: flex;
     justify-content: flex-end;
-    color: #fff;
+    color: var(--classic-wh-bg-color);
     position: relative;
     top: 10px;
     font-size: 18px;
@@ -106,7 +106,7 @@
     height: 100%;
 }
 .action .menu{
-    background-color:#FFF;
+    background-color: var(--classic-wh-bg-color);
     box-sizing:0 5px 25px rgba(0,0,0,0.1);
     border-radius: 15px;
     padding: 10px 20px;
@@ -124,7 +124,7 @@
     visibility: visible;
 }
 .action .menu::before{
-    background-color:#fff;
+    background-color: var(--classic-wh-bg-color);
     content: '';
     height: 20px;
     position: absolute;
@@ -163,7 +163,7 @@
 }
 .action .menu ul li a{
     display: inline-block;
-    color: #555;
+    color: var(--classic-blk-bg-color);
     font-size: 14px;
     font-weight: 600;
     padding-left: 15px;
@@ -175,11 +175,11 @@
     opacity: 1;
 }
 .action .menu ul li:hover a{
-    color:#E55D9B;
+    color: var(--primary-bg-color);
 }
 
 .icons-size{
-    color: #333;
+    color: var(--classic-blk-bg-color);
     font-size: 24px;
 }
 

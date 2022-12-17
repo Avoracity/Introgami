@@ -5,9 +5,9 @@
 .trending {}
 
 .trending-container {
-    background-color: #fff4fc;
+    background-color: var(--classic-wh-bg-color);
 
-    color: #333;
+    color: var(--classic-blk-bg-color);
 }
 
 .trending-title {

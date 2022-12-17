@@ -69,5 +69,8 @@
 
 </script>
 
-<style scoped src="@/assets/styles/navbar.css"> </style>
+<style lang="css" scoped> 
+@import "../assets/styles/navbar.css";
+@import "../assets/styles/global.css";
 
+</style>
