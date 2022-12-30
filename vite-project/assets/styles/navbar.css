@@ -53,31 +53,41 @@
 .about_btn {
     padding: 10px 50px;
     cursor: pointer;
-
+	background : transparent;
+	border : 0;
+	position : relative;
 }
 
 .explore_btn {
     padding: 10px 50px;
     cursor: pointer;
-
+	background : transparent;
+	border : 0;
+	position : relative;
 }
 
 .login_btn {
     padding: 10px 50px;
     cursor: pointer;
-
+	background : transparent;
+	border : 0;
+	position : relative;
 }
 
 .create_btn {
     padding: 10px 50px;
     cursor: pointer;
-
+	background : transparent;
+	border : 0;
+	position : relative;
     /* background-image: url("assets/images/hero-bg.png"); */
 
 }
 
 .acc_pfp_btn {
-    
+	background : transparent;
+	border : 0;
+	position : relative;
 }
 
 /* ---------------------------------------------------------------- *\
