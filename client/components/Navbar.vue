@@ -3,15 +3,15 @@
     
  <div class="navbar">
     <div class="navbar-container">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-        <div class = "navbar">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/ce1079a0f3.js" crossorigin="anonymous"></script>
+        <div class = "navbar"> 
             <div class = "btn_container">
                 <NuxtLink class= "about_btn"  to="/about">About</NuxtLink>
                 <div class="explore_btn"  type="button" onclick=" window.location.href='explore' " > Explore </div>
-                <div class ="login_btn" type="button" onclick=" window.location.href='login' " > Login</div>
+                <div class ="login_btn" type="button" on click=" window.location.href='login' " > Login</div>
                 
-                <div class="create_btn frame-btn__solid frame-btn__text" type="button" onclick=" window.location.href='create' " > Create</div>
+                <div class="create_btn frame-btn__solid frame-btn__text" type="button" onclick=" window.location.href='create' " > Create </div>
         
 
                 <div class="acc_pfp_btn" type="button" onclick=" window.location.href='account' "> </div>

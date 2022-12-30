@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.trending {}
+
+.trending-container {
+    background-color: var(--classic-wh-bg-color);
+
+    color: var(--classic-blk-bg-color);
+}
+
+.trending-title {
+    font-size: 1.5rem;
+    padding: 50px;
+}
+
+.trending_wrapper {
+
+}
+

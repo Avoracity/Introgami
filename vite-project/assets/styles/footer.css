@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.footer {}
+
+.footer-container {
+    background-color: var(--quad-bg-color);
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 50px;
+}
