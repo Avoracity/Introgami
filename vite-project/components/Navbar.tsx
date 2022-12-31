@@ -32,47 +32,54 @@ function Navbar() {
 
   return (
     <div>
-      <div className="navbar">
-        <div className="navbar-container">
-          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
-          <script src="https://kit.fontawesome.com/ce1079a0f3.js" crossOrigin="anonymous"></script>
-          <div className="navbar">
-            <div className="btn_container">
-              <button className="about_btn" onClick={handleAboutClick}>About</button>
-              <button className="explore_btn" type="button" onClick={handleExploreClick} > Explore </button>
-              <button className="login_btn" type="button" onClick={handleLoginClick} > Login</button>
-              <button className="create_btn frame-btn__solid frame-btn__text" type="button" onClick={handleCreateClick} > Create </button>
-              <button className="acc_pfp_btn" type="button" onClick={handleAccountClick}> </button>
-              <div className="action" >
-                <div className="profile" onClick={handleMenuToggle}></div>
-                <img src="@/assets/images/plaid-pattern-sundae.png" alt=""></img>
-              </div>
-              <div className="menu">
-                <h3>
-                  User Account
-                  <div>
-                    Op text
-                  </div>
-                </h3>
-                <ul>
-                  <li>
-                    <span className="material-icons icons-size">manage_accounts</span>
-                    <a href="#">My Profile</a>
-                  </li>
-                  <li>
-                    <span className="material-icons icons-size">folder_special</span>
-                    <a href="#">My Favorites</a>
-                  </li>
-                  <li>
-                    <span className="material-icons icons-size">logout</span>
-                    <a href="#">Log Out</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+        <div className="navbar">
+  <div className="navbar-container">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
+    <script src="https://kit.fontawesome.com/ce1079a0f3.js" crossOrigin="anonymous"></script>
+
+    <div className="navbar">
+      <div className="btn_container">
+        <div className="about_btn" onClick={handleAboutClick}>About</div>
+        <div className="explore_btn" onClick={handleExploreClick} > Explore </div>
+        <div className="login_btn"  onClick={handleLoginClick} > Login</div>
+        <div className="create_btn frame-btn__solid frame-btn__text"  onClick={handleCreateClick} > Create </div>
+        <div className="acc_pfp_btn" onClick={handleAccountClick}> </div>
+
+        <div className="action" >
+          <div className="profile" onClick={handleMenuToggle}>
+            <img src="../assets/images/plaid-pattern-sundae.png" alt=""></img>
           </div>
         </div>
       </div>
+      <div className="menu-container">
+        <div className="menu">
+          <h3>
+            User Account
+            <div>
+              Op text
+            </div>
+          </h3>
+          <ul>
+            <li>
+              <span className="material-icons icons-size">manage_accounts</span>
+              <a href="#">My Profile</a>
+            </li>
+            <li>
+              <span className="material-icons icons-size">folder_special</span>
+              <a href="#">My Favorites</a>
+            </li>
+            <li>
+              <span className="material-icons icons-size">logout</span>
+              <a href="#">Log Out</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
     </div>
   );
 }

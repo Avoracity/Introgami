@@ -84,18 +84,12 @@
 
 }
 
-.acc_pfp_btn {
-	background : transparent;
-	border : 0;
-	position : relative;
-}
 
 /* ---------------------------------------------------------------- *\
     - navbar profile menu
 \* ---------------------------------------------------------------- */
 
-.action {
-}
+
 
 .action .profile{
     border-radius: 50%;
@@ -115,211 +109,76 @@
     left: 0;
     height: 100%;
 }
-.action .menu{
-    background-color: var(--classic-wh-bg-color);
-    box-sizing:0 5px 25px rgba(0,0,0,0.1);
-    border-radius: 15px;
-    padding: 10px 20px;
-    position: absolute;
-    right: -10px;
-    width: 200px;
-    transition: 0.5s;
-    top: 120px;
-    visibility: hidden;
-    opacity: 0;
-}
-.action .menu.active{
-    opacity: 1;
-    top: 80px;
-    visibility: visible;
-}
-.action .menu::before{
-    background-color: var(--classic-wh-bg-color);
-    content: '';
-    height: 20px;
-    position: absolute;
-    right: 30px;
-    transform:rotate(45deg);
-    top:-5px;
-    width: 20px;
-}
-.action .menu h3{
-    color: #555;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 1.3em;
-    padding: 20px 0px;
-    text-align: left;
-    width: 100%;
-}
-.action .menu h3 div{
-    color: #818181;
-    font-size: 14px;
-    font-weight: 400;
-}
-.action .menu ul li{
-    align-items: center;
-    border-top:1px solid rgba(0,0,0,0.05);
-    display: flex;
-    justify-content: left;
-    list-style: none;
-    padding: 10px 0px;
-}
-.action .menu ul li img{
-    max-width: 20px;
-    margin-right: 10px;
-    opacity: 0.5;
-    transition:0.5s
-}
-.action .menu ul li a{
-    display: inline-block;
-    color: var(--classic-blk-bg-color);
-    font-size: 14px;
-    font-weight: 600;
-    padding-left: 15px;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: 0.5s;
-}
-.action .menu ul li:hover img{
-    opacity: 1;
-}
-.action .menu ul li:hover a{
-    color: var(--primary-bg-color);
-}
-
-.icons-size{
-    color: var(--classic-blk-bg-color);
-    font-size: 24px;
-}
 
 
 
-/* ---------------------------------------------------------------- *\
-    - frame button
-\* ---------------------------------------------------------------- */
 
-
-
-$framePad : 5px;
-.frame-btn{
-	margin-top:50px;
-	line-height: $framePad * 2;
-	display: inline-block;
-	padding: ($framePad * 5) ($framePad * 6);
-  	font-size: $framePad * 2;
-  	letter-spacing: $framePad * 0.6;
-  	text-decoration: none;
+.menu {
+	display: block;
+	position: absolute;
+	top: 50px;
+	right: 0;
+	background-color: white;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	width: 200px;
+	z-index: 2;
+	border-radius: 10px;
+	padding: 20px;
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0.5s, opacity 0.5s;
+  }
+  
+  .menu.active {
+	visibility: visible;
+  opacity: 1;
+  }
+  
+.menu-container {
+	display: flex;
+	justify-content: flex-end;
+	color: var(--classic-wh-bg-color);
 	position: relative;
-	&__text{
-		color: #b2876f;
-  		font-weight: bold;
-		text-transform: uppercase;
-		transition: 300ms ease;
-		position: relative;
-		
-		.frame-btn:hover & {
-			color: white;
-		}
+	top: 10px;
+	font-size: 16px;
+  }
+  
+  .menu-container .menu {
+	display: block;
+	position: absolute;
+	top: 50px;
+	right: 0;
+	background-color: white;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	width: 200px;
+	z-index: 2;
+	border-radius: 10px;
+	padding: 20px;}
+
+	.menu h3 {
+	  font-size: 20px;
+	  margin-bottom: 20px;
+  color: var(--classic-blk-bg-color);
+
 	}
-	&__solid{
-		position: absolute;
-		top: 0;
-		left: 0;
-		margin: $framePad * 2;
-		background-color: #b2876f;
-		width: calc(100% - (#{$framePad} * 4));
-		height: calc(100% - (#{$framePad} * 4));
-		transform-origin: 50%;
-		transform: scale(0.85);
-		opacity: 0;
-		transition: 500ms cubic-bezier(0.165, 0.84, 0.44, 1);
-		
-		.frame-btn:hover & {
-			opacity: 1;
-			transform: scale(1);
-		}
+	
+	.menu ul {
+	  list-style: none;
+	  margin: 0;
+	  padding: 0;
 	}
-	&__outline{
-		position: absolute;
-		top: 0;
-		left: 0;
-		
-		
-		&--tall{
-			margin: 0 $framePad;
-			width: calc(100% - (#{$framePad} * 2));
-			height: 100%;
-		}
-		&--flat{
-			margin: $framePad 0;
-			height: calc(100% - (#{$framePad} * 2));
-			width: 100%;
-		}
+	
+	.menu li {
+	  margin-bottom: 10px;
 	}
-	&__line{
-		width: 100%;
-		height: 100%;
-		position: absolute;
-		left: 0;
-		top: 0;
-		
-		&--tall{
-			&:before,
-			&:after{
-				height: 100%;
-				width: $framePad * .2;
-				top:0;
-				
-				.frame-btn:hover .frame-btn__outline--flat &{
-					transform: scaleY(0);
-				}
-				.frame-btn:hover .frame-btn__outline--tall &{
-					margin: $framePad 0;
-					height: calc(100% - (#{$framePad} * 2));
-				}
-			}
-			
-			&:before{
-				left: 0;
-			}
-			&:after{
-				right: 0;
-			}
-		}
-		&--flat{
-			&:before,
-			&:after{
-				width: 100%;
-				height: $framePad * .2;;
-				left: 0;
-				
-				.frame-btn:hover .frame-btn__outline--tall &{
-					transform: scaleX(0);
-				}
-				.frame-btn:hover .frame-btn__outline--flat &{
-					margin: 0 $framePad;
-					width: calc(100% - (#{$framePad} * 2));
-				}
-			}
-			
-			&:before{
-				top: 0;
-			}
-			&:after{
-				bottom: 0;
-			}
-		}
-		&:before,
-		&:after{
-			content: '';
-			display: block;
-			position: absolute;
-			background-color: #b2876f;
-			transition: 800ms cubic-bezier(0.165, 0.84, 0.44, 1);
-			.frame-btn:hover & {
-				transition: 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
-			}
-		}
+	
+	.menu .icons-size {
+	  font-size: 20px;
+	  margin-right: 10px;
+	  color: var(--quad-bg-color);
 	}
-}
+	
+	.menu a {
+	  text-decoration: none;
+	  color: var(--classic-blk-bg-color);
+	}
