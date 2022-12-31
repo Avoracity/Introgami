@@ -1,81 +1,49 @@
-import React from 'react';
-import "../assets/styles/qna.css";
-import "../assets/styles/global.css";
+import React, { useState } from 'react';
+import '../assets/styles/qna.css';
 
-function QnA () {
-    return (
-        <div>
-            <div className ="qna">
-              <div className="qna-container">
-          
-          <div className = "qna_bg">
-              <div className="cardboard_container">
-                  
-                  <div className="accordion">
-                      <div className="accordion-item">
-                          <div className="accordion-item-header">
-                              What is Introgami?
-                          </div>
-                          <div className="accordion-item-body">
-                              <div className="accordion-item-body-content">
-                                  Introgami is an origami . feaieal
-                              </div>
-                          </div>
-          
-                      </div>
-                  </div>
-          
-                      
-                  <div className="accordion">
-                      <div className="accordion-item">
-                          <div className="accordion-item-header">
-                              What is xxx?
-                          </div>
-                          <div className="accordion-item-body">
-                              <div className="accordion-item-body-content">
-                                  Introgami is an origami . feaieal
-                              </div>
-                          </div>
-          
-                      </div>
-                  </div>
-                      
-                  <div className="accordion">
-                      <div className="accordion-item">
-                          <div className="accordion-item-header">
-                              What is zzz?
-                          </div>
-                          <div className="accordion-item-body">
-                              <div className="accordion-item-body-content">
-                                  Introgami is an origami . feaieal
-                              </div>
-                          </div>
-          
-                      </div>
-                  </div>
-                      
-                  <div className="accordion">
-                      <div className="accordion-item">
-                          <div className="accordion-item-header">
-                              What is yyy?
-                          </div>
-                          <div className="accordion-item-body">
-                              <div className="accordion-item-body-content">
-                                  Introgami is an origami . feaieal
-                              </div>
-                          </div>
-          
-                      </div>
-                  </div>
-          
-              </div>
-          </div>
-          </div>
-            </div>
-              
-          </div>
-    )
+interface AccordionProps {
+  title: string;
+  children: React.ReactNode;
 }
 
+const AccordionHandleToggle: React.FC<AccordionProps> = ({ title, children }) => {
+    const [isOpen, setIsOpen] = useState(false);
+  
+    return (
+      <div className={`accordion${isOpen ? ' active' : ''}`}>
+        <button onClick={() => setIsOpen(!isOpen)}>{title}</button>
+        {isOpen && <div className="accordion-content">{children}</div>}
+      </div>
+    );
+  };
+  
+const QnA: React.FC = () => {
+  const accordionData = [
+    {
+      title: 'Accordion 1',
+      children: 'Accordion 1 content',
+    },
+    {
+      title: 'Accordion 2',
+      children: 'Accordion 2 content',
+    },
+    {
+      title: 'Accordion 3',
+      children: 'Accordion 3 content',
+    },
+    {
+      title: 'Accordion 4',
+      children: 'Accordion 4 content',
+    },
+  ];
+
+  return (
+    <div>
+      {accordionData.map((accordion) => (
+        <AccordionHandleToggle title={accordion.title}>{accordion.children}</AccordionHandleToggle>
+      ))}
+    </div>
+  );
+};
 
 export default QnA;
