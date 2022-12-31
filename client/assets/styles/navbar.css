@@ -39,6 +39,14 @@
     - navbar buttons and navbar container
 \* ---------------------------------------------------------------- */
 
+/* ---------------------------------------------------------------- *\
+	- when not logged in
+		- logo | search | about | explore | login | get-started
+	
+	- when logged in
+		- logo | search | about | explore | profile
+\* ---------------------------------------------------------------- */
+
 
 .btn_container {
     display: flex;
@@ -49,6 +57,10 @@
     font-size: 18px;
 
 }
+
+.introgami_logo {}
+
+.search_bar {}
 
 .about_btn {
     padding: 10px 50px;

@@ -39,6 +39,8 @@ function Navbar() {
 
     <div className="navbar">
       <div className="btn_container">
+        <div className="introgami_logo"></div>
+        <div className="search_bar"></div>
         <div className="about_btn" onClick={handleAboutClick}>About</div>
         <div className="explore_btn" onClick={handleExploreClick} > Explore </div>
         <div className="login_btn"  onClick={handleLoginClick} > Login</div>
