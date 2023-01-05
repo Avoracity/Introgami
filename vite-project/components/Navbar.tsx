@@ -1,10 +1,16 @@
+import React from 'react';
+import {useNavigate} from 'react-router-dom';
+
+
 import "../assets/styles/navbar.css";
 import "../assets/styles/global.css";
-import React from 'react';
+
 
 function Navbar() {
+  const navigate = useNavigate();
+
   const handleExploreClick = () => {
-    window.location.href = '/explore';
+    navigate('/explore');
   }
 
   const handleAboutClick = () => {

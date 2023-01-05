@@ -8,12 +8,12 @@ function Hero() {
     <div className="hero">
         <div className="hero-container">
             <img src="../assets/images/introgamibg.png" className="intro-bg" />
-            <div className="hero-title">
-                <h1>Introgami</h1>
+            <div className="hero-text">
+                <h1>Introgami</h1>               
+                <p>Letters and Origamis for Introverts </p>
+
             </div>
-            <div className="hero-description">
-                <h2>Letters and Origamis for Introverts </h2>
-            </div>
+
 
         </div>
 
