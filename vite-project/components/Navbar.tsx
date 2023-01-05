@@ -14,19 +14,19 @@ function Navbar() {
   }
 
   const handleAboutClick = () => {
-    window.location.href = '/about';
+    navigate('/about');
   }
 
   const handleCreateClick = () => {
-    window.location.href = '/create';
+    navigate('/create');
   }
 
   const handleLoginClick = () => {
-    window.location.href = '/login';
+    navigate('/login');
   }
 
   const handleAccountClick = () => {
-    window.location.href = '/account';
+    navigate('/account');
   }
 
   const handleMenuToggle = () => {
