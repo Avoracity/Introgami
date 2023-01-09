@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 function index () {
   return (
     <div>
-      
+  
       <div>
         
         <Navbar />

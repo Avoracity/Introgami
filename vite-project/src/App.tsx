@@ -9,6 +9,10 @@ import {
   Link
 } from "react-router-dom";
 import Login from "../components/Login";
+import Signup from "../components/Signup";
+import Create from "../components/Create";
+// import Explore from "../components/Explore";
+// import About from "../components/About";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -24,6 +28,11 @@ function App() {
             </>
           } />
           <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
+
+
+          <Route path="/create" element={<Create />} />
+
         </Routes>
       </div>
     </Router>
