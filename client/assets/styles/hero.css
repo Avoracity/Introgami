@@ -17,17 +17,25 @@
     height: 1000px;
 }
 
-.hero-title {
+.hero-text {
     position: absolute;
     bottom: 350px;
     left: 700px;
+    font-family : nunito;
 }
 
-.hero-description {
-    position: absolute;
-    bottom: 300px;
-    left: 700px;
+.hero-text h1 {
+    font-size: 2em;
+    margin: 0.5em 0;
 }
+
+.hero-text p {
+    font-size: 1.2em;
+    margin: 0;
+    opacity : 0.7;
+}
+
+
 .intro-crane {
 
     position: absolute;
