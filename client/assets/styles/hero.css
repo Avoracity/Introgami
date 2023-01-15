@@ -8,46 +8,28 @@
     grid-template-columns: 1fr;
 }
 
-.plaid-bg {
-    background-size: contain;
-    background-repeat: no-repeat;
-    opacity : 0.5;
-    width: 100%;
-    height: 1200px;
-}
-
 .hero-container {}
 
-.intro-crane {
-
-    position: absolute;
-    top: 250px;
+.intro-bg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1000px;
 }
 
 .hero-title {
     position: absolute;
-    top: 400px;
-
-    opacity : 1.0;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: bold;
-    font-size: 40px;
-    padding: 25px;
-    margin: 0px 0px 50px 500px;  /* top bot left right */
-    color: #000;
-
+    bottom: 350px;
+    left: 700px;
 }
 
 .hero-description {
     position: absolute;
-    top: 450px;
+    bottom: 300px;
+    left: 700px;
+}
+.intro-crane {
 
-    opacity : 1.0;
-    padding: 35px 25px 25px 25px;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: normal;
-    color: #000;
-    font-size: 14px;
-    line-height: 20px;
-    margin: 0px 0px 50px 500px;  /* top bot left right */
+    position: absolute;
+    top: 250px;
 }

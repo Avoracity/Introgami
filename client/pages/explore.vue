@@ -10,9 +10,10 @@
   </template>
   
   <script lang="ts">
-  export default {
-    name: 'IndexPage',
-    // other options
-  }
+  import Vue from 'vue'
+  
+  export default Vue.extend({
+    name: 'IndexPage'
+  })
   </script>
   

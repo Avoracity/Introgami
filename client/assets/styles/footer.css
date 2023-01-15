@@ -2,9 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.footer {}
 
 .footer-container {
-    background-color: #ef99bf;
+    background-color: var(--quad-bg-color);
     font-size: 13px;
     line-height: 21px;
     text-align: center;

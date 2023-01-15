@@ -2,21 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
+.create-container {
+    background-color: var(--classic-wh-bg-color);
 
-.create_your_own {
-    background-color: #fff4fc;
-    color: #333;
 }
 
-.create_wrapper {
-    background-color: #fff;
-    color: #333;
-}
+.card{
+    @apply max-w-sm rounded overflow-hidden shadow-lg h-96 w-96;
+  }
 
-.cardboard_container {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+.start-creating-container {
+    width: 1000px;
+    padding : 250px;
+    background-color: var(--classic-wh-bg-color);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
     transition: 0.3s;
-    border-radius: 5px; 
-    padding: 500px;
-}
+    background-image: url("../images/introgami-desktop-image.png");
+    background-repeat: no-repeat;
+    object-fit : contain;
+    margin: 0 auto;
+  }
 
+
+
+
+
+
+.btn {
+    @apply font-bold py-2 px-4 rounded;
+  }
+
+  .btn-pink {
+    @apply bg-pink-500 text-white;
+  }
+  
+  .btn-pink:hover {
+    @apply bg-pink-700;
+  }

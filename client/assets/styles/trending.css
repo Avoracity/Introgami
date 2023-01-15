@@ -2,10 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-.trending {
-    background-color: #fff4fc;
+.trending {}
 
-    color: #333;
+.trending-container {
+    background-color: var(--classic-wh-bg-color);
+
+    color: var(--classic-blk-bg-color);
 }
 
 .trending-title {
@@ -14,18 +16,6 @@
 }
 
 .trending_wrapper {
-    display: grid;
-    grid-auto-flow: row;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns per 1 item */
-    grid-template-rows: repeat(2, 1fr);   /* 2 rows for 1 item per section */
-    
-}
 
-.layout-section-a {
-    padding: 100px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 5px; 
 }
-
 

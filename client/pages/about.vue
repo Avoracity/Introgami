@@ -1,5 +1,6 @@
 <template>
-    <div>
+    <div class="page-property">
+
     <Navbar />
     <Hero />
     <Trending />
@@ -11,9 +12,9 @@
   
   </template>
   
-  <script lang="ts">
-  export default {
-    name: 'IndexPage',
-    // other options
-  }
-  </script>
+<style lang="css" scoped> 
+  @import "../assets/styles/global.css";
+
+</style>
+
+  

@@ -7,9 +7,12 @@
     </div>
   
   </template>
-<script lang="ts">
-export default {
-  name: 'IndexPage',
-  // other options
-}
-</script>
+  
+  <script lang="ts">
+  import Vue from 'vue'
+  
+  export default Vue.extend({
+    name: 'IndexPage'
+  })
+  </script>
+  

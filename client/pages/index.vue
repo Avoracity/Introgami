@@ -6,7 +6,9 @@
   <Create />
   <QnA />
   <Footer />
+  
   </div>
+
 </template>
 
 <script lang="ts">

@@ -2,17 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --primary-bg-color: #E55D9B; /* dark pink */ 
-  --secondary-bg-color: #fff4fc; /* light pink */ 
-  --tertiary-bg-color: #ffeaf7; /* mid pink */
-  --classic-wh-bg-color: #fffeff; /* white */
-  --classic-blk-bg-color: #4F4350; /* black */
-}
+
 
 .qna_bg {
     
-    color: #333;
 
 }
 
@@ -22,7 +15,7 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 5px; 
-    padding: 80px;
+    padding: 40px;
 }
 
 
@@ -35,17 +28,19 @@
 .accordion {
     width: 90%;
     max-width: 2000px;
-    margin: 2rem auto;
+    margin: 1rem auto;
   }
   .accordion-item {
-    background-color: #fff4fc;
+    background-color: var(--tertiary-bg-color); 
     color: #111;
     margin: 1rem 0;
     border-radius: 0.5rem;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
   }
+
+  /* color of accordion */
   .accordion-item-header {
-    background-color: #fff;
+    background-color: var(--secondary-bg-color); 
 
     padding: 0.5rem 3rem 0.5rem 1rem;
     min-height: 3.5rem;
