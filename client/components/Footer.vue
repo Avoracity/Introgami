@@ -14,8 +14,8 @@ export default {
 
 
 <style lang="css" scoped> 
-@import "../assets/styles/footer.css";
-@import "../assets/styles/global.css";
+@import "@/assets/styles/footer.css";
+@import "@/assets/styles/global.css";
 
 </style>
 

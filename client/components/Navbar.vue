@@ -70,7 +70,7 @@
 </script>
 
 <style lang="css" scoped> 
-@import "../assets/styles/navbar.css";
-@import "../assets/styles/global.css";
+@import "@/assets/styles/navbar.css";
+@import "@/assets/styles/global.css";
 
 </style>

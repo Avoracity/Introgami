@@ -81,8 +81,8 @@ export default {
 
 
 <style lang="css" scoped> 
-@import "../assets/styles/qna.css";
-@import "../assets/styles/global.css";
+@import "@/assets/styles/qna.css";
+@import "@/assets/styles/global.css";
 
 </style>
 

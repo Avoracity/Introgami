@@ -13,8 +13,8 @@ export default {
 </script>
 
 <style lang="css" scoped> 
-@import "../assets/styles/signup.css";
-@import "../assets/styles/global.css";
+@import "@/assets/styles/signup.css";
+@import "@/assets/styles/global.css";
 
 </style>
 
