@@ -20,7 +20,7 @@ export default defineNuxtConfig({
             rel: "stylesheet",
             href: "https://use.typekit.net/rvc4bpb.css",
           },
-          
+          { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.14.0/css/all.css' }
         ]
     
     
@@ -29,7 +29,8 @@ export default defineNuxtConfig({
       // Global CSS: https://go.nuxtjs.dev/config-css
       css: [
         'vue-style-loader',
-        { src: '~/assets/styles/global.css', lang: 'css' }
+        { src: '~/assets/styles/global.css', lang: 'css' },
+        
       ],
       // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
       plugins: [
