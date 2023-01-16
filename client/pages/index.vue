@@ -1,19 +1,13 @@
 <template>
   <div>
-  <Navbar />
-  <Hero />
-  <Trending />
-  <Create />
-  <QnA />
-  <Footer />
-  
-  </div>
+    <Title>Introgami</Title>
 
+    <Navbar />
+    <Hero />
+    <Trending />
+    <Create />
+    <QnA />
+    <Footer />
+  </div>
 </template>
 
-<script lang="ts">
-export default {
-  name: 'IndexPage',
-  // other options
-}
-</script>

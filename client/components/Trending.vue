@@ -20,12 +20,7 @@
     
 </template>
 
-<script>
-export default {
-    name: 'AppHeader'
-};
 
-</script>
 
 <style lang="css" scoped> 
 @import "@/assets/styles/trending.css";
