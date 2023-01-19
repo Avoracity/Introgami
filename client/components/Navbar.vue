@@ -7,13 +7,10 @@
       rel="stylesheet">
         <div class = "navbar">
             <div class = "btn_container">
-                <NuxtLink class= "about_btn"  to="/about">About</NuxtLink>
-                <div class="explore_btn"  type="button" onclick=" window.location.href='explore' " > Explore </div>
-                <div class ="login_btn" type="button" onclick=" window.location.href='login' " > Login</div>
-                
-                <div class="create_btn frame-btn__solid frame-btn__text" type="button" onclick=" window.location.href='create' " > Create</div>
-        
-
+                <RouterLink class="about_btn text-white hover:text-white no-underline" to="/about">About</RouterLink>
+    <RouterLink class="explore_btn text-white hover:text-white no-underline" to="/explore">Explore</RouterLink>
+    <RouterLink class="login_btn text-white hover:text-white no-underline" to="/login">Login</RouterLink>
+    <RouterLink class="create_btn text-white hover:text-white no-underline" to="/create">Create</RouterLink>
                 <div class="acc_pfp_btn" type="button" onclick=" window.location.href='account' "> </div>
                
                 <div class="action" >
