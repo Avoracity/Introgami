@@ -4,11 +4,13 @@
 @tailwind components;
 @tailwind utilities;
 
-.card{
-  @apply rounded bg-white border-gray-200 shadow-md overflow-hidden relative;
-  margin : 5px;
-  height : 450px;
-  width : 450px;
+.card {
+  background-color: #fff;
+  border-radius: .2rem;
+  box-shadow: rgb(150, 150, 150) 0px 1px 3px;
+  width: 350px;
+  padding: .8rem;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .badge{

@@ -4,7 +4,7 @@
         <div class = "create_your_own">
             <div class="layout-section">
                 <!-- inside white component -->
-                <div class="start-creating-container">
+                <div class="start-creating-container" src="@/client/assets/images/introgamibg.png">
                     <button class="btn btn-pink"> Button </button>
 
     

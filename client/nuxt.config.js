@@ -1,7 +1,15 @@
+const { join } = require('path')
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     head: {
+      server: {
+        static: {
+          '/client/assets/images': {
+            root: join(__dirname, 'client/assets/images')
+          }
+        }
+      },
 
         htmlAttrs: {
           lang: 'en'
@@ -36,6 +44,7 @@ export default defineNuxtConfig({
       plugins: [
        
       ],
+
     
       // Auto import components: https://go.nuxtjs.dev/config-components
       components: true,
@@ -52,6 +61,8 @@ export default defineNuxtConfig({
       modules: [
         
       ],
+
+      
     
       // Build Configuration: https://go.nuxtjs.dev/config-build
       build: {

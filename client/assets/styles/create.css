@@ -17,7 +17,6 @@
     background-color: var(--classic-wh-bg-color);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
     transition: 0.3s;
-    background-image: url("../images/introgami-desktop-image.png");
     background-repeat: no-repeat;
     object-fit : contain;
     margin: 0 auto;
