@@ -14,12 +14,13 @@
 .start-creating-container {
     width: 1000px;
     padding : 250px;
-    background-color: var(--classic-wh-bg-color);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
     transition: 0.3s;
     background-repeat: no-repeat;
     object-fit : contain;
     margin: 0 auto;
+    background-image: url('/_nuxt/assets/images/introgami-desktop-image.png') !important;
+
   }
 
 
