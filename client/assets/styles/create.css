@@ -3,8 +3,7 @@
 @tailwind utilities;
 
 .create-container {
-    background-color: var(--classic-wh-bg-color);
-
+    background-color: #F2F3F5;
 }
 
 .card{
@@ -19,11 +18,14 @@
     background-repeat: no-repeat;
     object-fit : contain;
     margin: 0 auto;
-    background-image: url('/_nuxt/assets/images/introgami-desktop-image.png') !important;
-
   }
 
-
+.ovw-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-image: url('/_nuxt/assets/images/overview-image.png') !important;
+}
 
 
 
