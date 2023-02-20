@@ -30,7 +30,7 @@
 }
 
 .intro-bg-image {
-    background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0.2)), url("/assets/images/introgamibg.png");
+    background-image:url("/assets/images/introgamibg.png");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;

@@ -23,10 +23,11 @@
   }
 
 .ovw-image {
-  background-position: center;
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 500px;
+  width: 1700px;
+  height: 1000px;
   background-image: url('/_nuxt/assets/images/overview-image.png') !important;
 }
 
@@ -49,3 +50,4 @@
   .btn-pink:hover {
     @apply bg-pink-700;
   }
+
