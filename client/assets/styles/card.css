@@ -11,6 +11,7 @@
   width: 350px;
   padding: .8rem;
   font-family: 'Quicksand', sans-serif;
+  
 }
 
 .badge{
@@ -28,11 +29,11 @@
 }
 
 .grid {
+  background-color: var(--classic-wh-bg-color);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, 1fr);
   margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 .card img {

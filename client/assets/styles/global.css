@@ -14,14 +14,9 @@ body {
     --secondary-bg-color: #fff4fc; /* light pink */ 
     --tertiary-bg-color: #ffeaf7; /* mid pink */
     --quad-bg-color: #ed8fb8; /* dark mid pink */
-    --classic-wh-bg-color: #fffeff; /* white */
+    --classic-wh-bg-color: #FAF9F6; /* white */
     --classic-blk-bg-color: #4F4350; /* black */
 }
 
-
-.layout-section {
-    border: 1px; 
-    padding: 50px;
-}
 
 

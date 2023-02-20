@@ -6,6 +6,7 @@
 
 .trending-container {
     background-color: var(--classic-wh-bg-color);
+    padding: 50px 0;
 
     color: var(--classic-blk-bg-color);
 }

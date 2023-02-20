@@ -5,9 +5,8 @@
    
     <nav class="bg-white px-2 sm:px-4 py-2.5 dark:bg-pink-400 fixed w-full z-20 top-0 left-0 border-b border-pink-200 dark:border-pink-400">
     <div class="container flex flex-wrap items-center justify-between mx-auto">
-    <a href="https://flowbite.com/" class="flex items-center">
-        <img src="https://flowbite.com/docs/images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Flowbite Logo">
-        <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+    <a href="#" class="flex items-center">
+        <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Introgami</span>
     </a>
     <div class="flex md:order-2">
         <button type="button" class="text-white bg-pink-300 hover:bg-pink-400 focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-pink-600 dark:hover:bg-pink-700 dark:focus:ring-blue-800">Sign Up</button>

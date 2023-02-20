@@ -4,6 +4,8 @@
 
 .create-container {
     background-color: #F2F3F5;
+    background-image: url('/_nuxt/assets/images/plaid-pattern.png') !important;
+
 }
 
 .card{
@@ -22,9 +24,15 @@
 
 .ovw-image {
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 500px;
   background-image: url('/_nuxt/assets/images/overview-image.png') !important;
+}
+
+.layout-section {
+  border: 1px; 
+  padding: 50px;
 }
 
 
