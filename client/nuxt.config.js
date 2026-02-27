@@ -23,7 +23,7 @@ export default defineNuxtConfig({
         ],
         // Global favicon and font 
         link: [
-          { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+          { rel: 'icon', type: 'image/x-icon', href: '../client/static/favicon.ico' },
           {
             rel: "stylesheet",
             href: "https://use.typekit.net/rvc4bpb.css",
